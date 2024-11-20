@@ -1,0 +1,69 @@
+.contactinfo{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contactleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h4{
+        color: blue;
+    }
+    h4:hover{
+color: chocolate;
+    }
+
+    p{
+        display: inline;
+        left: 100px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+    }
+}
+.contactright{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    gap: 100px;
+}
+.map{
+    margin-top: 100px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.lastform{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+    .input{
+        width: 500px;
+    }
+  
+}
+.btn{
+    width: 100px;
+    display: flex;
+    background-color: rgb(98, 166, 221);
+    align-items: center;
+    border-radius: 30px;
+}

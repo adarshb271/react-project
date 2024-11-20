@@ -1,0 +1,29 @@
+.login{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  height: 1000px;
+    width: 100%;
+    background-image: url(./image/bg.webp);
+    margin-bottom: 20px;
+
+}
+
+
+
+.loginmain{
+    margin-top: 150px;
+    margin-left: 500px;
+    border-radius: 5px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    form{
+        top: 30px;
+    }
+}
